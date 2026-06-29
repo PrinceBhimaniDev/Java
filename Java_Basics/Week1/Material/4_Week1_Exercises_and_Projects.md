@@ -131,7 +131,8 @@ public class TypeCastingDemo {
 - Primitive to String conversions
 
 **Challenge**: What happens if you cast 256 to byte? Why?
-
+Answer: it will print 0 as it can store maximum upto 127 byte 
+Whenever you pass an exact multiple of 256 (like 256, 512, 768) into an 8-bit byte, the lower 8 bits clear out entirely, resulting in 0
 ---
 
 ### Exercise 1.3: Basic Calculator
@@ -172,6 +173,8 @@ public class SimpleCalculator {
 - Output formatting
 
 **Enhance It**: Try with different numbers. What happens with division by zero?
+If divided and answer is infinity it will crash and give arathmatic error for (byte, short , int and long)
+will run with (double) and the output will show INFINITY using the built in Arthmatic class.
 
 ---
 
