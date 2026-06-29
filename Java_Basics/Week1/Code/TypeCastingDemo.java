@@ -1,4 +1,4 @@
-package Code;
+
 
 public class TypeCastingDemo {
     public static void main(String[] args) {
